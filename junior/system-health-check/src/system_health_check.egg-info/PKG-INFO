@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: system-health-check
+Version: 0.1.0
+Summary: A Python-based system health monitoring and diagnostics tool for Linux environments.
+License: MIT
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: psutil<8.0,>=7.2
+Provides-Extra: dev
+Requires-Dist: pytest<10.0,>=9.1; extra == "dev"
+Requires-Dist: ruff<0.17,>=0.16; extra == "dev"
